@@ -1,0 +1,159 @@
+.contacts-container {
+  width: 100%;
+}
+
+.contacts-container .contacts-page-header {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem auto;
+}
+
+.contacts-container .contacts-page-header h2 {
+  margin: 0;
+}
+
+.contacts-container .add_new_contact_btn {
+  display: none;
+}
+
+.contacts-container .add_new_contact_btn button a {
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.contacts-container table {
+  border-collapse: collapse;
+  width: 90%;
+  margin: auto;
+  background-color: #fff;
+}
+
+.contacts-container table td,
+.contacts-container table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.contacts-container table tr {
+  transition: all 0.2s ease;
+}
+
+.contacts-container table tr:nth-child(even) {
+  background-color: #f2f2f2;
+
+}
+
+.contacts-container table tr:hover {
+  background-color: #dbe8e3;
+}
+
+.contacts-container table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+
+.contacts-container table td .opration-btns {
+  display: flex;
+  gap: 12px;
+
+}
+
+.contacts-container table td .opration-btns button {
+  background-color: #00c67e;
+  border: none;
+  color: white;
+  padding: 2px 10px;
+  border-radius: 2px;
+  font-size: 14px;
+}
+
+.contacts-container table td .opration-btns button:hover {
+  background-color: #04AA6D;
+
+}
+
+.contacts-container table td .opration-btns:first-child button a {
+  text-decoration: none;
+  font-size: 14px;
+}
+
+
+
+
+/* NewContact Page and UpdateContact Page CSS  */
+.add_new_contact_container,
+.update_contact_container {
+  width: 100%;
+  background: #23c98c;
+  max-width: 28rem;
+  min-width: 18rem;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.add_new_contact_container div h2 {
+  display: none;
+}
+
+.add_new_contact_container form, 
+.update_contact_container form {
+  display: flex;
+  /* flex-direction: column; */
+  /* gap: 14px; */
+  gap: 6px;
+  /* padding: 1rem 1.5rem; */
+  padding: 8px 6px;
+}
+
+.add_new_contact_container form div,
+.update_contact_container form div {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  text-align: left;
+}
+
+.add_new_contact_container form div label,
+.update_contact_container form div label {
+  font-size: 14px;
+  color: #000000c9;
+  display: none;
+}
+
+.add_new_contact_container form div input, 
+.update_contact_container form div input {
+  background: transparent;
+  border: 1px solid black;
+  padding: 6px 8px;
+  border-radius: 8px;
+}
+
+.add_new_contact_container form div input:focus, 
+.update_contact_container form div input:focus {
+  outline: 1px solid #222;
+}
+
+.add_new_contact_container form div input::placeholder, 
+.update_contact_container form div input::placeholder {
+  color: #eee;
+}
+
+.add_new_contact_container form button,
+.update_contact_container form button {
+  /* margin-top: 0.5rem; */
+  background: #000;
+  color: white;
+  padding: 6px;
+  border: 1px solid gray;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.add_new_contact_container form button:hover,
+.update_contact_container form button:hover {
+  background-color: #0c6804;
+} 
