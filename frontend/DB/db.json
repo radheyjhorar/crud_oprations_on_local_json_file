@@ -1,0 +1,49 @@
+{
+  "contacts": [
+    {
+      "id": "3",
+      "name": "Contact3",
+      "email": "contact31234@gmail.com"
+    },
+    {
+      "id": "4",
+      "name": "Contact4",
+      "email": "contact41234@gmail.com"
+    },
+    {
+      "id": "5",
+      "name": "Contact5",
+      "email": "contact51234@gmail.com"
+    },
+    {
+      "name": "HelloOne",
+      "email": "helloone@hello.com",
+      "id": "6"
+    },
+    {
+      "id": "5b69",
+      "name": "Hello",
+      "email": "hello@hello.com"
+    }
+  ],
+  "users": [
+    {
+      "name": "John",
+      "username": "@john123",
+      "email": "john1234@gmail.com",
+      "password": "12345678"
+    },
+    {
+      "name": "user",
+      "username": "@user123",
+      "email": "user1234@gmail.com",
+      "password": "12345678"
+    },
+    {
+      "name": "user1",
+      "username": "@user1123",
+      "email": "user11234@gmail.com",
+      "password": "12345678"
+    }
+  ]
+}
